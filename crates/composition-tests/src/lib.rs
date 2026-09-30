@@ -33,3 +33,9 @@ fn composition_test_infrastructure() {
     assert!(accounts.all(&env).len() == 6);
     assert_ne!(accounts.user1, accounts.user2);
 }
+
+#[test]
+fn cross_contract_settlement_harness_placeholder() {
+    // TODO: Cross-contract settlement harness — shared SAC/auth fixtures and conservation assertions
+}
+
